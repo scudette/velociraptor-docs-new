@@ -1,0 +1,8 @@
+.DS_Store
+**/.DS_Store
+**/**/.DS_Store
+public/
+.wordlist.dict
+.hugo_build.lock
+.idea
+static/docs_index/

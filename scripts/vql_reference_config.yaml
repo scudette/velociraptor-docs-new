@@ -1,0 +1,130 @@
+content/vql_reference/popular/_index.md:
+  title: Frequently Used ✨
+  linktitle: Frequently Used
+  description: |
+    These are the functions and plugins that are the most frequently used in
+    [Velociraptor's built-in artifacts](/artifact_references/) and the
+    [Community Exchange artifacts](/exchange/). So we can infer that these are
+    the most "popular" and therefore probably the most useful ones for everyday
+    artifact writing.
+
+    VQL provides a vast array of functions and plugins allowing queries to
+    manipulate data and implement logic. Many are suitable for specific use
+    cases, however most on this page are considered foundational to the VQL
+    language. They are the general purpose VQL "workhorses", which is why they
+    are frequently used in the existing artifacts.
+
+    If you are new to VQL then this is a good place to start and become
+    acquainted with the commonly used functions and plugins.
+
+  weight: 10
+  category: popular
+
+content/vql_reference/windows/_index.md:
+  title: Windows-only
+  linktitle: Windows
+  description: |
+    Many VQL plugins and functions provide access to the Windows APIs. The
+    following are only available when running Velociraptor on Windows.
+  weight: 20
+  category: windows
+
+content/vql_reference/linux/_index.md:
+  title: Linux-only
+  linktitle: Linux
+  description: |
+    The following are only available when running Velociraptor on Linux.
+  weight: 30
+  category: linux
+
+content/vql_reference/server/_index.md:
+  title: Server-only
+  linktitle: Server
+  description: |
+    Velociraptor provides complete control of the server within VQL queries. On
+    the server the VQL engine contains the following plugins and functions
+    which you can use to manage and automate the server via VQL queries. Such
+    server-side VQL can be run via Server Artifacts, Notebooks, or the API.
+
+    {{% notice warning %}}
+
+    Since these rely on the server datastore and server services they are not
+    available on clients!
+
+    {{% /notice %}}
+
+  weight: 40
+  category: server
+
+content/vql_reference/parsers/_index.md:
+  title: Parsers
+  linktitle: Parsers
+  description: |
+    Many Velociraptor artifacts rely on parsing of file and data formats.
+
+    Velociraptor has dedicated parsers for some specialized file and data
+    formats. In addition we have flexible generic parsers, such as `grok` and
+    other regex-based parsers for text formats, and `parse_binary` which
+    provides completely customizable parsing of binary file formats.
+  weight: 50
+  category: parsers
+
+content/vql_reference/encode/_index.md:
+  title: Encode/Decode
+  linktitle: Encode/Decode
+  description: |
+    Encoder, decoders and cryptographic functions.
+  weight: 60
+  category: encode
+
+content/vql_reference/event/_index.md:
+  title: Event Plugins
+  description: |
+    VQL Event plugins are plugins which never terminate - but instead generate
+    rows based on events.
+
+    Event plugins are useful for creating monitoring artifacts, both on clients
+    and on the server.
+  weight: 70
+  category: event
+
+content/vql_reference/experimental/_index.md:
+  title: Experimental
+  linktitle: Experimental
+  description: |
+    Velociraptor is evolving quickly. We sometimes implement functionality which
+    may not be broadly useful and therefore might not remain in Velociraptor for
+    the long-term. This page lists such 'experimental' features.
+
+    If you find them useful, please let us know so that we don't remove them!
+  weight: 80
+  category: experimental
+
+content/vql_reference/developer/_index.md:
+  title: Developer
+  linktitle: Developer
+  description: |
+    These functions and plugins are only used during development, for automated
+    testing, and occasionally for troubleshooting.
+
+    Normally you would not use these!
+  weight: 85
+  category: developer
+
+content/vql_reference/other/_index.md:
+  title: Other
+  linktitle: Other
+  description: |
+    Functions and plugins that do not fall into a specific category or that have
+    not yet been categorized.
+  weight: 90
+  category: ""
+
+content/vql_reference/accessors/_index.md:
+  title: Accessors
+  linktitle: Accessors
+  description: |
+    Accessors are used to access bulk data from various sources using a standard
+    file-like interface.
+  weight: 100
+  category: "accessors"
