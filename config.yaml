@@ -1,4 +1,4 @@
-baseURL: https://docs.velociraptor.app/
+baseURL: https://www.velociraptor-docs.org/
 languageCode: en-us
 title: "Velociraptor - Digging deeper!"
 
@@ -20,7 +20,7 @@ params:
   disableNextPrev: true
   disableLandingPageButton: true
   disableShortcutsTitle: true
-  editURL: https://github.com/Velocidex/velociraptor-docs/edit/master/content/
+  editURL: https://github.com/scudette/velociraptor-docs-new/edit/master/content/
   custom_css:
     - css/dark.css
     - css/syntax.css
